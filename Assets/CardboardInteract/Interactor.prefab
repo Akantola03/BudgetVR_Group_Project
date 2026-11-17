@@ -331,7 +331,7 @@ MonoBehaviour:
   playerHeight: 1.7
   interactLayer:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 64
   dwellCircle: {fileID: 7727847445419903953}
   twistCrosshair: {fileID: 7891165828299053048}
   reticle: {fileID: 2536165976289148378}
