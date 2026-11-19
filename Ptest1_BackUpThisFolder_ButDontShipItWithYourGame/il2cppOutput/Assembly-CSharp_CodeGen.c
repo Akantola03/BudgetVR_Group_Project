@@ -48,9 +48,12 @@ extern void CustomInterraction__ctor_m4C87E29CA490B2020E8F80A86C9421BD08E08B9B (
 extern void PlanetMovenemt_Start_m37CDE215D8D103D1CA12CE91EC8479C89BD8989B (void);
 extern void PlanetMovenemt_Update_mEC6DEC5048891355F07D4184BBFC414CBC55A9C6 (void);
 extern void PlanetMovenemt__ctor_mD688FFED6D60726331F2DD1965717DA5CF40CDE9 (void);
+extern void TeleportToPoint_Start_m32DAA8467C987ACF044402DC847B502F7A394077 (void);
+extern void TeleportToPoint_Interact_m96B03C698B29BF3AD436918B272809D65D21FE19 (void);
+extern void TeleportToPoint__ctor_m7FC99F31F894670BFC0C4747F98992AD0C318030 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
-static Il2CppMethodPointer s_methodPointers[43] = 
+static Il2CppMethodPointer s_methodPointers[46] = 
 {
 	CameraInteract_GetLatestHit_mE0D0FC01729686E05952F0A7876043F0548CB899,
 	CameraInteract_GetPlayerTransform_m2842FB5C7987A888828BC3662D90EFAA35E54C3A,
@@ -93,10 +96,13 @@ static Il2CppMethodPointer s_methodPointers[43] =
 	PlanetMovenemt_Start_m37CDE215D8D103D1CA12CE91EC8479C89BD8989B,
 	PlanetMovenemt_Update_mEC6DEC5048891355F07D4184BBFC414CBC55A9C6,
 	PlanetMovenemt__ctor_mD688FFED6D60726331F2DD1965717DA5CF40CDE9,
+	TeleportToPoint_Start_m32DAA8467C987ACF044402DC847B502F7A394077,
+	TeleportToPoint_Interact_m96B03C698B29BF3AD436918B272809D65D21FE19,
+	TeleportToPoint__ctor_m7FC99F31F894670BFC0C4747F98992AD0C318030,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
 };
-static const int32_t s_InvokerIndices[43] = 
+static const int32_t s_InvokerIndices[46] = 
 {
 	23899,
 	23863,
@@ -139,6 +145,9 @@ static const int32_t s_InvokerIndices[43] =
 	13759,
 	13759,
 	13759,
+	13759,
+	13759,
+	13759,
 	23987,
 	13759,
 };
@@ -146,7 +155,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	43,
+	46,
 	s_methodPointers,
 	0,
 	NULL,

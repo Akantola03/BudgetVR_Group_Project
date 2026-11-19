@@ -1580,9 +1580,7 @@
           },
           {
             "name": "TextMesh",
-            "scenes": [
-              "Assets/Samples/Cardboard XR Plugin (DPI Calibration Fork)/1.32.0-dpi.1/Hello Cardboard/Scenes/VrMode.unity"
-            ],
+            "scenes": [],
             "dependencyType": 0,
             "icon": null
           },

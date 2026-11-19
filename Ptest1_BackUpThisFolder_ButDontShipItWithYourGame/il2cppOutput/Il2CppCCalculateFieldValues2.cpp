@@ -5823,7 +5823,7 @@ struct v64_t9C4037532D386FF1E9B95E5FBD01FEF472AC1F96
 	};
 };
 #pragma pack(push, tp, 1)
-struct __StaticArrayInitTypeSizeU3D208_t021399C90D4886E7DD18158038DC0EB494FC6471 
+struct __StaticArrayInitTypeSizeU3D229_t8E1C8B4D7A80F4EAB899AC3EA09BA9BE334ECC47 
 {
 	union
 	{
@@ -5833,12 +5833,12 @@ struct __StaticArrayInitTypeSizeU3D208_t021399C90D4886E7DD18158038DC0EB494FC6471
 			{
 			};
 		};
-		uint8_t __StaticArrayInitTypeSizeU3D208_t021399C90D4886E7DD18158038DC0EB494FC6471__padding[208];
+		uint8_t __StaticArrayInitTypeSizeU3D229_t8E1C8B4D7A80F4EAB899AC3EA09BA9BE334ECC47__padding[229];
 	};
 };
 #pragma pack(pop, tp)
 #pragma pack(push, tp, 1)
-struct __StaticArrayInitTypeSizeU3D512_tC1954DF71761952F33D2EDF6DFBD702D1FA82772 
+struct __StaticArrayInitTypeSizeU3D554_tD03358923768124273484BBDFA8E80793583B1FF 
 {
 	union
 	{
@@ -5848,7 +5848,7 @@ struct __StaticArrayInitTypeSizeU3D512_tC1954DF71761952F33D2EDF6DFBD702D1FA82772
 			{
 			};
 		};
-		uint8_t __StaticArrayInitTypeSizeU3D512_tC1954DF71761952F33D2EDF6DFBD702D1FA82772__padding[512];
+		uint8_t __StaticArrayInitTypeSizeU3D554_tD03358923768124273484BBDFA8E80793583B1FF__padding[554];
 	};
 };
 #pragma pack(pop, tp)
@@ -31641,6 +31641,11 @@ struct Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712  : public UIBehaviou
 	bool ___U3ChasSelectionU3Ek__BackingField;
 	List_1_t2CDCA768E7F493F5EDEBC75AEB200FD621354E35* ___m_CanvasGroupCache;
 };
+struct TeleportToPoint_t11813D39AABA42186996C5F513ECC4C0AA3CC72B  : public Interactive_t746BD5660A310D9D849BCFCA4A7F4AE2A9A0457C
+{
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___teleportPoint;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___pointPosition;
+};
 struct TextContainer_t949A6EBEE5C8832723E73D8D3DCF4C8D0B3D7F3C  : public UIBehaviour_tB9D4295827BD2EEDEF0749200C6CA7090C742A9D
 {
 	bool ___m_hasChanged;
@@ -32308,8 +32313,8 @@ struct ICurrentAssemblyLoadContext_tF382B3644CF7D70EAEF2C4812400C0AA851DF158_Sta
 };
 struct U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA_StaticFields
 {
-	__StaticArrayInitTypeSizeU3D208_t021399C90D4886E7DD18158038DC0EB494FC6471 ___6F7B7FD4009DCF1BD28360D218E8E28C1BA19EFB6F4B9CBC60D078F09BF2284B;
-	__StaticArrayInitTypeSizeU3D512_tC1954DF71761952F33D2EDF6DFBD702D1FA82772 ___819F5FB6B6479045045B221C84CCCA8B879FBD6D3C260C1D3957F45786009817;
+	__StaticArrayInitTypeSizeU3D554_tD03358923768124273484BBDFA8E80793583B1FF ___AFC6833AD762145300D98E32B3BFD4D4DE9D5A62E2DCA743F1048571C33696C3;
+	__StaticArrayInitTypeSizeU3D229_t8E1C8B4D7A80F4EAB899AC3EA09BA9BE334ECC47 ___B3C1F3A8DE26D2279ACF5CCBE0578BC0BCF0B599E72EE66EF24F18E4DCF6D106;
 };
 struct U3CPrivateImplementationDetailsU3E_tE8BA426EA6A60999054C1EEF3ADC97956E694EA1_StaticFields
 {
@@ -40071,135 +40076,138 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8583[1] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8584[3] = 
 {
 	static_cast<int32_t>(offsetof(PlanetMovenemt_t44A47ADC218A21284BDDF9BC087687B376CB2EFC, ___orbitAround)),static_cast<int32_t>(offsetof(PlanetMovenemt_t44A47ADC218A21284BDDF9BC087687B376CB2EFC, ___orbitingSpeed)),static_cast<int32_t>(offsetof(PlanetMovenemt_t44A47ADC218A21284BDDF9BC087687B376CB2EFC, ___selfRotationSpeed)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8585[5] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8585[2] = 
+{
+	static_cast<int32_t>(offsetof(TeleportToPoint_t11813D39AABA42186996C5F513ECC4C0AA3CC72B, ___teleportPoint)),static_cast<int32_t>(offsetof(TeleportToPoint_t11813D39AABA42186996C5F513ECC4C0AA3CC72B, ___pointPosition)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8586[5] = 
 {
 	static_cast<int32_t>(offsetof(MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E, ___FilePathsData)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E, ___TypesData)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E, ___TotalTypes)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E, ___TotalFiles)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E, ___IsEditorOnly)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8589[2] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8590[2] = 
 {
-	static_cast<int32_t>(offsetof(U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA_StaticFields, ___6F7B7FD4009DCF1BD28360D218E8E28C1BA19EFB6F4B9CBC60D078F09BF2284B)),static_cast<int32_t>(offsetof(U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA_StaticFields, ___819F5FB6B6479045045B221C84CCCA8B879FBD6D3C260C1D3957F45786009817)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8592[1] = 
+	static_cast<int32_t>(offsetof(U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA_StaticFields, ___AFC6833AD762145300D98E32B3BFD4D4DE9D5A62E2DCA743F1048571C33696C3)),static_cast<int32_t>(offsetof(U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA_StaticFields, ___B3C1F3A8DE26D2279ACF5CCBE0578BC0BCF0B599E72EE66EF24F18E4DCF6D106)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8593[1] = 
 {
 	static_cast<int32_t>(offsetof(RefSafetyRulesAttribute_t2561E7F8EB1293C1444542D5A533B24932AD7895, ___Version)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8596[1] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8597[1] = 
 {
 	static_cast<int32_t>(offsetof(RefSafetyRulesAttribute_t7BE4642FBCBBFE1B91543C8A8740259ED3B2B8B9, ___Version)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8600[1] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8601[1] = 
 {
 	static_cast<int32_t>(offsetof(RefSafetyRulesAttribute_t262E0F7C94899F5EC2AAD71352B46995B09093E6, ___Version)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8605[8] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8606[8] = 
 {
 	static_cast<int32_t>(offsetof(ObjectController_tBF20F280367D206F28C7FA39CEA13EC3DEA90A87, ___InactiveMaterial)),static_cast<int32_t>(offsetof(ObjectController_tBF20F280367D206F28C7FA39CEA13EC3DEA90A87, ___GazedAtMaterial)),0,0,0,0,static_cast<int32_t>(offsetof(ObjectController_tBF20F280367D206F28C7FA39CEA13EC3DEA90A87, ____myRenderer)),static_cast<int32_t>(offsetof(ObjectController_tBF20F280367D206F28C7FA39CEA13EC3DEA90A87, ____startingPosition)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8606[2] = 
-{
-	static_cast<int32_t>(offsetof(U3CStartXRU3Ed__11_t3EBD9D23D178F89A81FB56C7C3727DDFB4504009, ___U3CU3E1__state)),static_cast<int32_t>(offsetof(U3CStartXRU3Ed__11_t3EBD9D23D178F89A81FB56C7C3727DDFB4504009, ___U3CU3E2__current)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8607[2] = 
 {
+	static_cast<int32_t>(offsetof(U3CStartXRU3Ed__11_t3EBD9D23D178F89A81FB56C7C3727DDFB4504009, ___U3CU3E1__state)),static_cast<int32_t>(offsetof(U3CStartXRU3Ed__11_t3EBD9D23D178F89A81FB56C7C3727DDFB4504009, ___U3CU3E2__current)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8608[2] = 
+{
 	0,static_cast<int32_t>(offsetof(VrModeController_t60FF928CE1AF0F8715EF1C052101425FB84CF1E7, ____mainCamera)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8608[5] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8609[5] = 
 {
 	static_cast<int32_t>(offsetof(MonoScriptData_t6C767A4560EEA895881C4F659182EE24FFB9C8D5, ___FilePathsData)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(MonoScriptData_t6C767A4560EEA895881C4F659182EE24FFB9C8D5, ___TypesData)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(MonoScriptData_t6C767A4560EEA895881C4F659182EE24FFB9C8D5, ___TotalTypes)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(MonoScriptData_t6C767A4560EEA895881C4F659182EE24FFB9C8D5, ___TotalFiles)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(MonoScriptData_t6C767A4560EEA895881C4F659182EE24FFB9C8D5, ___IsEditorOnly)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8612[2] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8613[2] = 
 {
 	static_cast<int32_t>(offsetof(U3CPrivateImplementationDetailsU3E_tE8BA426EA6A60999054C1EEF3ADC97956E694EA1_StaticFields, ___5DE251C7B6C93713709F03BFAC588D67DD73AB0A5FEEF51039286C6A4DEC9F36)),static_cast<int32_t>(offsetof(U3CPrivateImplementationDetailsU3E_tE8BA426EA6A60999054C1EEF3ADC97956E694EA1_StaticFields, ___9E7C7E846D08BF76F77F6DEADFACE59DB543C34339D0F56317189DD4403D8084)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8614[5] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8615[5] = 
 {
 	static_cast<int32_t>(offsetof(MonoScriptData_tC4A299808061ECECB1711FDB41D9A52CD7B60690, ___FilePathsData)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(MonoScriptData_tC4A299808061ECECB1711FDB41D9A52CD7B60690, ___TypesData)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(MonoScriptData_tC4A299808061ECECB1711FDB41D9A52CD7B60690, ___TotalTypes)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(MonoScriptData_tC4A299808061ECECB1711FDB41D9A52CD7B60690, ___TotalFiles)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(MonoScriptData_tC4A299808061ECECB1711FDB41D9A52CD7B60690, ___IsEditorOnly)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8616[14] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8617[14] = 
 {
 	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,0,0,0,0,0,0,0,0,0,0,};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8617[13] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8618[13] = 
 {
 	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,0,0,0,0,0,0,0,0,0,};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8618[4] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8619[4] = 
 {
 	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8619[9] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8620[9] = 
 {
 	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,0,0,0,0,0,};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8620[6] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8621[6] = 
 {
 	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,0,0,};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8621[5] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8622[5] = 
 {
 	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,0,};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8622[8] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8623[8] = 
 {
 	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,0,0,0,0,};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8623[3] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8624[3] = 
 {
 	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8624[6] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8625[6] = 
 {
 	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,0,0,};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8625[4] = 
-{
-	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8626[4] = 
 {
 	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8627[6] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8627[4] = 
+{
+	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8628[6] = 
 {
 	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,0,0,};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8628[8] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8629[8] = 
 {
 	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,0,0,0,0,};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8629[5] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8630[5] = 
 {
 	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,0,};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8630[8] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8631[8] = 
 {
 	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,0,0,0,0,};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8631[2] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8632[2] = 
 {
 	static_cast<int32_t>(offsetof(ShadowData_t25107BFCD514C4CD90FAC8F07B5DFA940E2E5B67, ___worldToShadowMatrix)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(ShadowData_t25107BFCD514C4CD90FAC8F07B5DFA940E2E5B67, ___shadowParams)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8632[6] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8633[6] = 
 {
 	static_cast<int32_t>(offsetof(LightData_tAC4023737E9903DE3F96B993AA323E062ABCB9ED, ___position)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(LightData_tAC4023737E9903DE3F96B993AA323E062ABCB9ED, ___color)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(LightData_tAC4023737E9903DE3F96B993AA323E062ABCB9ED, ___attenuation)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(LightData_tAC4023737E9903DE3F96B993AA323E062ABCB9ED, ___spotDirection)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(LightData_tAC4023737E9903DE3F96B993AA323E062ABCB9ED, ___occlusionProbeChannels)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(LightData_tAC4023737E9903DE3F96B993AA323E062ABCB9ED, ___layerMask)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8636[2] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8637[2] = 
 {
 	static_cast<int32_t>(offsetof(U3CPrivateImplementationDetailsU3E_t4CD66A162F5D953B7D54B787725E07B4A495919B_StaticFields, ___685D33E36DBAAACD58F4B35441F9B70BB1F802DA5A24F6C4FBBFD56AB33E8AEC)),static_cast<int32_t>(offsetof(U3CPrivateImplementationDetailsU3E_t4CD66A162F5D953B7D54B787725E07B4A495919B_StaticFields, ___6E83C5D34661ACA58D000EC7A44C174D6AC3EDFF1D66AAC9DED79FB31326D8AA)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8638[3] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8639[3] = 
 {
 	static_cast<int32_t>(offsetof(ASN1_t33549D58797C9C33AA83F13AD184EAA00C584A6F, ___m_nTag)),static_cast<int32_t>(offsetof(ASN1_t33549D58797C9C33AA83F13AD184EAA00C584A6F, ___m_aValue)),static_cast<int32_t>(offsetof(ASN1_t33549D58797C9C33AA83F13AD184EAA00C584A6F, ___elist)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8643[3] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8644[3] = 
 {
 	static_cast<int32_t>(offsetof(XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD_StaticFields, ___IsTextualNodeBitmap)),static_cast<int32_t>(offsetof(XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD_StaticFields, ___CanReadContentAsBitmap)),static_cast<int32_t>(offsetof(XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD_StaticFields, ___HasValueBitmap)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8650[5] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8651[5] = 
 {
 	static_cast<int32_t>(offsetof(MonoScriptData_t82B1EDB2E75C6D415B8D03B486672468ACF9471A, ___FilePathsData)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(MonoScriptData_t82B1EDB2E75C6D415B8D03B486672468ACF9471A, ___TypesData)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(MonoScriptData_t82B1EDB2E75C6D415B8D03B486672468ACF9471A, ___TotalTypes)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(MonoScriptData_t82B1EDB2E75C6D415B8D03B486672468ACF9471A, ___TotalFiles)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(MonoScriptData_t82B1EDB2E75C6D415B8D03B486672468ACF9471A, ___IsEditorOnly)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8655[2] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8656[2] = 
 {
 	static_cast<int32_t>(offsetof(U3CPrivateImplementationDetailsU3E_tA040082ACE377F10A31FF80DC6C1864B1CB3AF82_StaticFields, ___0A02D26BFBA6DFF59C1E3BC5E6B5832B263438655010A0A49BE8D61B88D5E5B8)),static_cast<int32_t>(offsetof(U3CPrivateImplementationDetailsU3E_tA040082ACE377F10A31FF80DC6C1864B1CB3AF82_StaticFields, ___E3473A6E2712A038B431950A0647301216E33FF603A58094EFDBC574AA7EC0F7)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8657[5] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8658[5] = 
 {
 	static_cast<int32_t>(offsetof(MonoScriptData_t489270D8576DC4B57CC3FCFF016869C5CEEF011A, ___FilePathsData)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(MonoScriptData_t489270D8576DC4B57CC3FCFF016869C5CEEF011A, ___TypesData)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(MonoScriptData_t489270D8576DC4B57CC3FCFF016869C5CEEF011A, ___TotalTypes)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(MonoScriptData_t489270D8576DC4B57CC3FCFF016869C5CEEF011A, ___TotalFiles)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(MonoScriptData_t489270D8576DC4B57CC3FCFF016869C5CEEF011A, ___IsEditorOnly)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8663[2] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8664[2] = 
 {
 	static_cast<int32_t>(offsetof(U3CPrivateImplementationDetailsU3E_t187CD5651459C6A4A2A418D7046EC05BC2B5DE6D_StaticFields, ___E69563F10A3A5AE82DA3EF5BF1D8AEA031DFB37710F2557F1285F5F86BED55F4)),static_cast<int32_t>(offsetof(U3CPrivateImplementationDetailsU3E_t187CD5651459C6A4A2A418D7046EC05BC2B5DE6D_StaticFields, ___EBA74C59A0D43894B3E4E5430138D08BB543911D7E39AC5461E8891E52AEEA7D)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8666[1] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8667[1] = 
 {
 	static_cast<int32_t>(offsetof(RefSafetyRulesAttribute_tD669286AA45E94BACAB455523FCE3362CB12B886, ___Version)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8668[1] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8669[1] = 
 {
 	static_cast<int32_t>(offsetof(CurrentPlayer_tA38F5DE026D7800F8A64FB198765CD6F1D88EA68_StaticFields, ___s_CurrentPlayerApi)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8671[1] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8672[1] = 
 {
 	static_cast<int32_t>(offsetof(RefSafetyRulesAttribute_t8BBAC91199463222A52CDDDD50F86AD91912ECFF, ___Version)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8672[2] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8673[2] = 
 {
 	static_cast<int32_t>(offsetof(ConsentState_t20D6467F75E4F212880A838770B6584FD88FC8DF, ___AdsIntent)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(ConsentState_t20D6467F75E4F212880A838770B6584FD88FC8DF, ___AnalyticsIntent)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8673[4] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8674[4] = 
 {
 	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8674[1] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8675[1] = 
 {
 	static_cast<int32_t>(offsetof(EndUserConsent_t4111002DFEC56F1F8A2447A2F3C28978BD51D636_StaticFields, ___consentStateChanged)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8678[4] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8679[4] = 
 {
 	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8686[5] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8687[5] = 
 {
 	static_cast<int32_t>(offsetof(MonoScriptData_tE8CE27F1B50A55060EDAD9796B65329E68490400, ___FilePathsData)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(MonoScriptData_tE8CE27F1B50A55060EDAD9796B65329E68490400, ___TypesData)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(MonoScriptData_tE8CE27F1B50A55060EDAD9796B65329E68490400, ___TotalTypes)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(MonoScriptData_tE8CE27F1B50A55060EDAD9796B65329E68490400, ___TotalFiles)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(MonoScriptData_tE8CE27F1B50A55060EDAD9796B65329E68490400, ___IsEditorOnly)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8691[2] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8692[2] = 
 {
 	static_cast<int32_t>(offsetof(U3CPrivateImplementationDetailsU3E_t56B11D653DDDDCE1FB62511C9112308EE5C13DF6_StaticFields, ___79A1C5065E3683D0CCDFA570FA53B151961969DD034788B9FDE927454C901A98)),static_cast<int32_t>(offsetof(U3CPrivateImplementationDetailsU3E_t56B11D653DDDDCE1FB62511C9112308EE5C13DF6_StaticFields, ___E957F2AFC795677AA0ACFF0DB287CBE3D2F0D8D6FBB97578B7791915F1B9E702)),};
