@@ -40,7 +40,7 @@
           {
             "name": "AudioBehaviour",
             "scenes": [
-              "Assets/Samples/Cardboard XR Plugin (DPI Calibration Fork)/1.32.0-dpi.1/Hello Cardboard/Scenes/VrMode.unity",
+              "Assets/Samples/Cardboard XR Plugin (DPI Calibration Fork)/1.32.0-dpi.1/Hello Cardboard/Scenes/BdgetVR_Main_Scene.unity",
               "Packages/com.vrsystems.cardboard-calibration/Runtime/Ruler/Ruler_Scene_xdpi.unity",
               "Packages/com.vrsystems.cardboard-calibration/Runtime/Ruler/Ruler_Scene_ydpi.unity"
             ],
@@ -56,7 +56,7 @@
           {
             "name": "AudioListener",
             "scenes": [
-              "Assets/Samples/Cardboard XR Plugin (DPI Calibration Fork)/1.32.0-dpi.1/Hello Cardboard/Scenes/VrMode.unity",
+              "Assets/Samples/Cardboard XR Plugin (DPI Calibration Fork)/1.32.0-dpi.1/Hello Cardboard/Scenes/BdgetVR_Main_Scene.unity",
               "Packages/com.vrsystems.cardboard-calibration/Runtime/Ruler/Ruler_Scene_xdpi.unity",
               "Packages/com.vrsystems.cardboard-calibration/Runtime/Ruler/Ruler_Scene_ydpi.unity"
             ],
@@ -101,7 +101,7 @@
           {
             "name": "Camera",
             "scenes": [
-              "Assets/Samples/Cardboard XR Plugin (DPI Calibration Fork)/1.32.0-dpi.1/Hello Cardboard/Scenes/VrMode.unity",
+              "Assets/Samples/Cardboard XR Plugin (DPI Calibration Fork)/1.32.0-dpi.1/Hello Cardboard/Scenes/BdgetVR_Main_Scene.unity",
               "Packages/com.vrsystems.cardboard-calibration/Runtime/Ruler/Ruler_Scene_xdpi.unity",
               "Packages/com.vrsystems.cardboard-calibration/Runtime/Ruler/Ruler_Scene_ydpi.unity"
             ],
@@ -123,7 +123,7 @@
           {
             "name": "Cubemap",
             "scenes": [
-              "Assets/Samples/Cardboard XR Plugin (DPI Calibration Fork)/1.32.0-dpi.1/Hello Cardboard/Scenes/VrMode.unity",
+              "Assets/Samples/Cardboard XR Plugin (DPI Calibration Fork)/1.32.0-dpi.1/Hello Cardboard/Scenes/BdgetVR_Main_Scene.unity",
               "Packages/com.vrsystems.cardboard-calibration/Runtime/Ruler/Ruler_Scene_xdpi.unity",
               "Packages/com.vrsystems.cardboard-calibration/Runtime/Ruler/Ruler_Scene_ydpi.unity"
             ],
@@ -145,7 +145,7 @@
           {
             "name": "EditorExtension",
             "scenes": [
-              "Assets/Samples/Cardboard XR Plugin (DPI Calibration Fork)/1.32.0-dpi.1/Hello Cardboard/Scenes/VrMode.unity",
+              "Assets/Samples/Cardboard XR Plugin (DPI Calibration Fork)/1.32.0-dpi.1/Hello Cardboard/Scenes/BdgetVR_Main_Scene.unity",
               "Packages/com.vrsystems.cardboard-calibration/Runtime/Ruler/Ruler_Scene_xdpi.unity",
               "Packages/com.vrsystems.cardboard-calibration/Runtime/Ruler/Ruler_Scene_ydpi.unity"
             ],
@@ -155,7 +155,7 @@
           {
             "name": "FlareLayer",
             "scenes": [
-              "Assets/Samples/Cardboard XR Plugin (DPI Calibration Fork)/1.32.0-dpi.1/Hello Cardboard/Scenes/VrMode.unity"
+              "Assets/Samples/Cardboard XR Plugin (DPI Calibration Fork)/1.32.0-dpi.1/Hello Cardboard/Scenes/BdgetVR_Main_Scene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -169,7 +169,7 @@
           {
             "name": "GameObject",
             "scenes": [
-              "Assets/Samples/Cardboard XR Plugin (DPI Calibration Fork)/1.32.0-dpi.1/Hello Cardboard/Scenes/VrMode.unity",
+              "Assets/Samples/Cardboard XR Plugin (DPI Calibration Fork)/1.32.0-dpi.1/Hello Cardboard/Scenes/BdgetVR_Main_Scene.unity",
               "Packages/com.vrsystems.cardboard-calibration/Runtime/Ruler/Ruler_Scene_xdpi.unity",
               "Packages/com.vrsystems.cardboard-calibration/Runtime/Ruler/Ruler_Scene_ydpi.unity"
             ],
@@ -203,7 +203,7 @@
           {
             "name": "LevelGameManager",
             "scenes": [
-              "Assets/Samples/Cardboard XR Plugin (DPI Calibration Fork)/1.32.0-dpi.1/Hello Cardboard/Scenes/VrMode.unity",
+              "Assets/Samples/Cardboard XR Plugin (DPI Calibration Fork)/1.32.0-dpi.1/Hello Cardboard/Scenes/BdgetVR_Main_Scene.unity",
               "Packages/com.vrsystems.cardboard-calibration/Runtime/Ruler/Ruler_Scene_xdpi.unity",
               "Packages/com.vrsystems.cardboard-calibration/Runtime/Ruler/Ruler_Scene_ydpi.unity"
             ],
@@ -213,7 +213,7 @@
           {
             "name": "Light",
             "scenes": [
-              "Assets/Samples/Cardboard XR Plugin (DPI Calibration Fork)/1.32.0-dpi.1/Hello Cardboard/Scenes/VrMode.unity",
+              "Assets/Samples/Cardboard XR Plugin (DPI Calibration Fork)/1.32.0-dpi.1/Hello Cardboard/Scenes/BdgetVR_Main_Scene.unity",
               "Packages/com.vrsystems.cardboard-calibration/Runtime/Ruler/Ruler_Scene_xdpi.unity",
               "Packages/com.vrsystems.cardboard-calibration/Runtime/Ruler/Ruler_Scene_ydpi.unity"
             ],
@@ -235,7 +235,7 @@
           {
             "name": "LightingSettings",
             "scenes": [
-              "Assets/Samples/Cardboard XR Plugin (DPI Calibration Fork)/1.32.0-dpi.1/Hello Cardboard/Scenes/VrMode.unity"
+              "Assets/Samples/Cardboard XR Plugin (DPI Calibration Fork)/1.32.0-dpi.1/Hello Cardboard/Scenes/BdgetVR_Main_Scene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -243,7 +243,7 @@
           {
             "name": "LightmapSettings",
             "scenes": [
-              "Assets/Samples/Cardboard XR Plugin (DPI Calibration Fork)/1.32.0-dpi.1/Hello Cardboard/Scenes/VrMode.unity",
+              "Assets/Samples/Cardboard XR Plugin (DPI Calibration Fork)/1.32.0-dpi.1/Hello Cardboard/Scenes/BdgetVR_Main_Scene.unity",
               "Packages/com.vrsystems.cardboard-calibration/Runtime/Ruler/Ruler_Scene_xdpi.unity",
               "Packages/com.vrsystems.cardboard-calibration/Runtime/Ruler/Ruler_Scene_ydpi.unity"
             ],
@@ -259,7 +259,7 @@
           {
             "name": "Material",
             "scenes": [
-              "Assets/Samples/Cardboard XR Plugin (DPI Calibration Fork)/1.32.0-dpi.1/Hello Cardboard/Scenes/VrMode.unity",
+              "Assets/Samples/Cardboard XR Plugin (DPI Calibration Fork)/1.32.0-dpi.1/Hello Cardboard/Scenes/BdgetVR_Main_Scene.unity",
               "Packages/com.vrsystems.cardboard-calibration/Runtime/Ruler/Ruler_Scene_xdpi.unity",
               "Packages/com.vrsystems.cardboard-calibration/Runtime/Ruler/Ruler_Scene_ydpi.unity"
             ],
@@ -269,7 +269,7 @@
           {
             "name": "Mesh",
             "scenes": [
-              "Assets/Samples/Cardboard XR Plugin (DPI Calibration Fork)/1.32.0-dpi.1/Hello Cardboard/Scenes/VrMode.unity"
+              "Assets/Samples/Cardboard XR Plugin (DPI Calibration Fork)/1.32.0-dpi.1/Hello Cardboard/Scenes/BdgetVR_Main_Scene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -277,7 +277,7 @@
           {
             "name": "MeshFilter",
             "scenes": [
-              "Assets/Samples/Cardboard XR Plugin (DPI Calibration Fork)/1.32.0-dpi.1/Hello Cardboard/Scenes/VrMode.unity"
+              "Assets/Samples/Cardboard XR Plugin (DPI Calibration Fork)/1.32.0-dpi.1/Hello Cardboard/Scenes/BdgetVR_Main_Scene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -285,7 +285,7 @@
           {
             "name": "MeshRenderer",
             "scenes": [
-              "Assets/Samples/Cardboard XR Plugin (DPI Calibration Fork)/1.32.0-dpi.1/Hello Cardboard/Scenes/VrMode.unity"
+              "Assets/Samples/Cardboard XR Plugin (DPI Calibration Fork)/1.32.0-dpi.1/Hello Cardboard/Scenes/BdgetVR_Main_Scene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -293,7 +293,7 @@
           {
             "name": "MonoBehaviour",
             "scenes": [
-              "Assets/Samples/Cardboard XR Plugin (DPI Calibration Fork)/1.32.0-dpi.1/Hello Cardboard/Scenes/VrMode.unity",
+              "Assets/Samples/Cardboard XR Plugin (DPI Calibration Fork)/1.32.0-dpi.1/Hello Cardboard/Scenes/BdgetVR_Main_Scene.unity",
               "Packages/com.vrsystems.cardboard-calibration/Runtime/Ruler/Ruler_Scene_xdpi.unity",
               "Packages/com.vrsystems.cardboard-calibration/Runtime/Ruler/Ruler_Scene_ydpi.unity"
             ],
@@ -309,7 +309,7 @@
           {
             "name": "MonoScript",
             "scenes": [
-              "Assets/Samples/Cardboard XR Plugin (DPI Calibration Fork)/1.32.0-dpi.1/Hello Cardboard/Scenes/VrMode.unity",
+              "Assets/Samples/Cardboard XR Plugin (DPI Calibration Fork)/1.32.0-dpi.1/Hello Cardboard/Scenes/BdgetVR_Main_Scene.unity",
               "Packages/com.vrsystems.cardboard-calibration/Runtime/Ruler/Ruler_Scene_xdpi.unity",
               "Packages/com.vrsystems.cardboard-calibration/Runtime/Ruler/Ruler_Scene_ydpi.unity"
             ],
@@ -319,7 +319,7 @@
           {
             "name": "NamedObject",
             "scenes": [
-              "Assets/Samples/Cardboard XR Plugin (DPI Calibration Fork)/1.32.0-dpi.1/Hello Cardboard/Scenes/VrMode.unity",
+              "Assets/Samples/Cardboard XR Plugin (DPI Calibration Fork)/1.32.0-dpi.1/Hello Cardboard/Scenes/BdgetVR_Main_Scene.unity",
               "Packages/com.vrsystems.cardboard-calibration/Runtime/Ruler/Ruler_Scene_xdpi.unity",
               "Packages/com.vrsystems.cardboard-calibration/Runtime/Ruler/Ruler_Scene_ydpi.unity"
             ],
@@ -359,7 +359,7 @@
           {
             "name": "RectTransform",
             "scenes": [
-              "Assets/Samples/Cardboard XR Plugin (DPI Calibration Fork)/1.32.0-dpi.1/Hello Cardboard/Scenes/VrMode.unity",
+              "Assets/Samples/Cardboard XR Plugin (DPI Calibration Fork)/1.32.0-dpi.1/Hello Cardboard/Scenes/BdgetVR_Main_Scene.unity",
               "Packages/com.vrsystems.cardboard-calibration/Runtime/Ruler/Ruler_Scene_xdpi.unity",
               "Packages/com.vrsystems.cardboard-calibration/Runtime/Ruler/Ruler_Scene_ydpi.unity"
             ],
@@ -375,7 +375,7 @@
           {
             "name": "RenderSettings",
             "scenes": [
-              "Assets/Samples/Cardboard XR Plugin (DPI Calibration Fork)/1.32.0-dpi.1/Hello Cardboard/Scenes/VrMode.unity",
+              "Assets/Samples/Cardboard XR Plugin (DPI Calibration Fork)/1.32.0-dpi.1/Hello Cardboard/Scenes/BdgetVR_Main_Scene.unity",
               "Packages/com.vrsystems.cardboard-calibration/Runtime/Ruler/Ruler_Scene_xdpi.unity",
               "Packages/com.vrsystems.cardboard-calibration/Runtime/Ruler/Ruler_Scene_ydpi.unity"
             ],
@@ -409,7 +409,7 @@
           {
             "name": "Shader",
             "scenes": [
-              "Assets/Samples/Cardboard XR Plugin (DPI Calibration Fork)/1.32.0-dpi.1/Hello Cardboard/Scenes/VrMode.unity",
+              "Assets/Samples/Cardboard XR Plugin (DPI Calibration Fork)/1.32.0-dpi.1/Hello Cardboard/Scenes/BdgetVR_Main_Scene.unity",
               "Packages/com.vrsystems.cardboard-calibration/Runtime/Ruler/Ruler_Scene_xdpi.unity",
               "Packages/com.vrsystems.cardboard-calibration/Runtime/Ruler/Ruler_Scene_ydpi.unity"
             ],
@@ -921,7 +921,7 @@
           {
             "name": "BoxCollider",
             "scenes": [
-              "Assets/Samples/Cardboard XR Plugin (DPI Calibration Fork)/1.32.0-dpi.1/Hello Cardboard/Scenes/VrMode.unity"
+              "Assets/Samples/Cardboard XR Plugin (DPI Calibration Fork)/1.32.0-dpi.1/Hello Cardboard/Scenes/BdgetVR_Main_Scene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -929,7 +929,7 @@
           {
             "name": "CapsuleCollider",
             "scenes": [
-              "Assets/Samples/Cardboard XR Plugin (DPI Calibration Fork)/1.32.0-dpi.1/Hello Cardboard/Scenes/VrMode.unity"
+              "Assets/Samples/Cardboard XR Plugin (DPI Calibration Fork)/1.32.0-dpi.1/Hello Cardboard/Scenes/BdgetVR_Main_Scene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -943,7 +943,7 @@
           {
             "name": "MeshCollider",
             "scenes": [
-              "Assets/Samples/Cardboard XR Plugin (DPI Calibration Fork)/1.32.0-dpi.1/Hello Cardboard/Scenes/VrMode.unity"
+              "Assets/Samples/Cardboard XR Plugin (DPI Calibration Fork)/1.32.0-dpi.1/Hello Cardboard/Scenes/BdgetVR_Main_Scene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -963,7 +963,7 @@
           {
             "name": "SphereCollider",
             "scenes": [
-              "Assets/Samples/Cardboard XR Plugin (DPI Calibration Fork)/1.32.0-dpi.1/Hello Cardboard/Scenes/VrMode.unity"
+              "Assets/Samples/Cardboard XR Plugin (DPI Calibration Fork)/1.32.0-dpi.1/Hello Cardboard/Scenes/BdgetVR_Main_Scene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1571,7 +1571,7 @@
           {
             "name": "Font",
             "scenes": [
-              "Assets/Samples/Cardboard XR Plugin (DPI Calibration Fork)/1.32.0-dpi.1/Hello Cardboard/Scenes/VrMode.unity",
+              "Assets/Samples/Cardboard XR Plugin (DPI Calibration Fork)/1.32.0-dpi.1/Hello Cardboard/Scenes/BdgetVR_Main_Scene.unity",
               "Packages/com.vrsystems.cardboard-calibration/Runtime/Ruler/Ruler_Scene_xdpi.unity",
               "Packages/com.vrsystems.cardboard-calibration/Runtime/Ruler/Ruler_Scene_ydpi.unity"
             ],
@@ -1622,7 +1622,7 @@
           {
             "name": "Canvas",
             "scenes": [
-              "Assets/Samples/Cardboard XR Plugin (DPI Calibration Fork)/1.32.0-dpi.1/Hello Cardboard/Scenes/VrMode.unity",
+              "Assets/Samples/Cardboard XR Plugin (DPI Calibration Fork)/1.32.0-dpi.1/Hello Cardboard/Scenes/BdgetVR_Main_Scene.unity",
               "Packages/com.vrsystems.cardboard-calibration/Runtime/Ruler/Ruler_Scene_xdpi.unity",
               "Packages/com.vrsystems.cardboard-calibration/Runtime/Ruler/Ruler_Scene_ydpi.unity"
             ],
@@ -1638,7 +1638,7 @@
           {
             "name": "CanvasRenderer",
             "scenes": [
-              "Assets/Samples/Cardboard XR Plugin (DPI Calibration Fork)/1.32.0-dpi.1/Hello Cardboard/Scenes/VrMode.unity",
+              "Assets/Samples/Cardboard XR Plugin (DPI Calibration Fork)/1.32.0-dpi.1/Hello Cardboard/Scenes/BdgetVR_Main_Scene.unity",
               "Packages/com.vrsystems.cardboard-calibration/Runtime/Ruler/Ruler_Scene_xdpi.unity",
               "Packages/com.vrsystems.cardboard-calibration/Runtime/Ruler/Ruler_Scene_ydpi.unity"
             ],
