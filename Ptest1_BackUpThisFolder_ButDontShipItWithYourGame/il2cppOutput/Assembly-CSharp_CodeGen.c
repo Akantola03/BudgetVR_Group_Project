@@ -51,9 +51,25 @@ extern void PlanetMovenemt__ctor_mD688FFED6D60726331F2DD1965717DA5CF40CDE9 (void
 extern void TeleportToPoint_Start_m32DAA8467C987ACF044402DC847B502F7A394077 (void);
 extern void TeleportToPoint_Interact_m96B03C698B29BF3AD436918B272809D65D21FE19 (void);
 extern void TeleportToPoint__ctor_m7FC99F31F894670BFC0C4747F98992AD0C318030 (void);
+extern void VrModeController_get__isScreenTouched_mD72F14326F1D19F3AC970FD0ED9D0C5CD5C6CFB5 (void);
+extern void VrModeController_get__isVrModeEnabled_m8D8D68536E09FF2DEAD3795AF30A57BA6DF7C95F (void);
+extern void VrModeController_Start_m10BF77FE8B825D9640800D5DF7EF791A391FA49B (void);
+extern void VrModeController_Update_m43F984D5BF13F2C545B508D93645C1C3AC9262D5 (void);
+extern void VrModeController_GetFirstTouchIfExists_mC78797F8BDECA0335450C5AE1635CA2778685D45 (void);
+extern void VrModeController_EnterVR_m5FD79BF38C6AF621AF9992378BC5C3618FDE5EFB (void);
+extern void VrModeController_ExitVR_m1FF25DFE5B3BC15CEDE5C42F56CC399693867397 (void);
+extern void VrModeController_StartXR_m57D80B4AD6B28A7C4E36052563B6227E824CDDB4 (void);
+extern void VrModeController_StopXR_m0338E8D8035C06E1A46F17C16BBC7933EE9CAA3A (void);
+extern void VrModeController__ctor_m94505259847FB7C54346D7CF02AD85793393D141 (void);
+extern void U3CStartXRU3Ed__11__ctor_m3596A694CE7B260AF241E256DA4CED91BC2D9E65 (void);
+extern void U3CStartXRU3Ed__11_System_IDisposable_Dispose_m6EB02736B80D2190CCD42615C727681D1E554F11 (void);
+extern void U3CStartXRU3Ed__11_MoveNext_m4933B16956771E9637E162CAC80DD0DEE09FE485 (void);
+extern void U3CStartXRU3Ed__11_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mC5DCDE87D3F9E5DA8AFE4DDD9C58CAAEB7E8E83C (void);
+extern void U3CStartXRU3Ed__11_System_Collections_IEnumerator_Reset_m68E417B4AC53D37FBA6AC9C8A1BF7E1DFB723F12 (void);
+extern void U3CStartXRU3Ed__11_System_Collections_IEnumerator_get_Current_mA5B431CDD509208CAECABF7E6CF63AE243E738E2 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
-static Il2CppMethodPointer s_methodPointers[46] = 
+static Il2CppMethodPointer s_methodPointers[62] = 
 {
 	CameraInteract_GetLatestHit_mE0D0FC01729686E05952F0A7876043F0548CB899,
 	CameraInteract_GetPlayerTransform_m2842FB5C7987A888828BC3662D90EFAA35E54C3A,
@@ -99,10 +115,26 @@ static Il2CppMethodPointer s_methodPointers[46] =
 	TeleportToPoint_Start_m32DAA8467C987ACF044402DC847B502F7A394077,
 	TeleportToPoint_Interact_m96B03C698B29BF3AD436918B272809D65D21FE19,
 	TeleportToPoint__ctor_m7FC99F31F894670BFC0C4747F98992AD0C318030,
+	VrModeController_get__isScreenTouched_mD72F14326F1D19F3AC970FD0ED9D0C5CD5C6CFB5,
+	VrModeController_get__isVrModeEnabled_m8D8D68536E09FF2DEAD3795AF30A57BA6DF7C95F,
+	VrModeController_Start_m10BF77FE8B825D9640800D5DF7EF791A391FA49B,
+	VrModeController_Update_m43F984D5BF13F2C545B508D93645C1C3AC9262D5,
+	VrModeController_GetFirstTouchIfExists_mC78797F8BDECA0335450C5AE1635CA2778685D45,
+	VrModeController_EnterVR_m5FD79BF38C6AF621AF9992378BC5C3618FDE5EFB,
+	VrModeController_ExitVR_m1FF25DFE5B3BC15CEDE5C42F56CC399693867397,
+	VrModeController_StartXR_m57D80B4AD6B28A7C4E36052563B6227E824CDDB4,
+	VrModeController_StopXR_m0338E8D8035C06E1A46F17C16BBC7933EE9CAA3A,
+	VrModeController__ctor_m94505259847FB7C54346D7CF02AD85793393D141,
+	U3CStartXRU3Ed__11__ctor_m3596A694CE7B260AF241E256DA4CED91BC2D9E65,
+	U3CStartXRU3Ed__11_System_IDisposable_Dispose_m6EB02736B80D2190CCD42615C727681D1E554F11,
+	U3CStartXRU3Ed__11_MoveNext_m4933B16956771E9637E162CAC80DD0DEE09FE485,
+	U3CStartXRU3Ed__11_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mC5DCDE87D3F9E5DA8AFE4DDD9C58CAAEB7E8E83C,
+	U3CStartXRU3Ed__11_System_Collections_IEnumerator_Reset_m68E417B4AC53D37FBA6AC9C8A1BF7E1DFB723F12,
+	U3CStartXRU3Ed__11_System_Collections_IEnumerator_get_Current_mA5B431CDD509208CAECABF7E6CF63AE243E738E2,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
 };
-static const int32_t s_InvokerIndices[46] = 
+static const int32_t s_InvokerIndices[62] = 
 {
 	23899,
 	23863,
@@ -148,6 +180,22 @@ static const int32_t s_InvokerIndices[46] =
 	13759,
 	13759,
 	13759,
+	13364,
+	13364,
+	13759,
+	13759,
+	23863,
+	13759,
+	13759,
+	13553,
+	13759,
+	13759,
+	10346,
+	13759,
+	13364,
+	13553,
+	13759,
+	13553,
 	23987,
 	13759,
 };
@@ -155,7 +203,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	46,
+	62,
 	s_methodPointers,
 	0,
 	NULL,
