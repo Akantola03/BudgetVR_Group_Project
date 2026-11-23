@@ -67,5 +67,5 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "Frugal-VR-Template.slnx"
+    "dotnet.defaultSolution": "BudgetVR_Group_Project.slnx"
 }
