@@ -5,7 +5,7 @@ public class TeleportToPoint : Interactive
     public GameObject teleportPoint;
     private Vector3 pointPosition;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    void Update()
     {
         // Get the coordinates of the teleport point
         pointPosition = teleportPoint.transform.position;
