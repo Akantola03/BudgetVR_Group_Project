@@ -240,6 +240,56 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 72349707}
   m_CullTransparentMesh: 1
+--- !u!1 &72864588
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 72864589}
+  - component: {fileID: 72864590}
+  m_Layer: 0
+  m_Name: SaturnAnchor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &72864589
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 72864588}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.4, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1932477683}
+  - {fileID: 568764840}
+  - {fileID: 838290416}
+  m_Father: {fileID: 308483103}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &72864590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 72864588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7230ed68dadc8cf45bae513735852814, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlanetOrbit
+  orbitAround: {fileID: 308483099}
+  orbitingSpeed: 0.51
+  isOrbiting: 0
 --- !u!1 &134204574
 GameObject:
   m_ObjectHideFlags: 0
@@ -813,11 +863,11 @@ Transform:
   m_GameObject: {fileID: 176236451}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.589, y: 8.994, z: 22.845}
-  m_LocalScale: {x: 0.38000008, y: 0.38000008, z: 0.38000008}
+  m_LocalPosition: {x: 0.0069680884, y: 0.00040633228, z: -0.006186545}
+  m_LocalScale: {x: 0.009174311, y: 0.009174311, z: 0.009174311}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1881794703}
+  m_Father: {fileID: 596204677}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &246333859
 GameObject:
@@ -965,19 +1015,19 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 249656302}
-  m_LocalRotation: {x: 0, y: 0.20107791, z: 0, w: 0.9795752}
-  m_LocalPosition: {x: 0, y: 0, z: 112.52}
-  m_LocalScale: {x: 0.010000002, y: 0.010000003, z: 0.014000005}
+  m_LocalRotation: {x: -0, y: 0.029666247, z: -0, w: 0.9995599}
+  m_LocalPosition: {x: 0, y: 0, z: -0.004604697}
+  m_LocalScale: {x: 0.0000917431, y: 0.00009174314, z: 0.00012844041}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 72349708}
   - {fileID: 1156544718}
   - {fileID: 2012362652}
-  m_Father: {fileID: 1833994988}
-  m_LocalEulerAnglesHint: {x: 0, y: 23.2, z: 0}
+  m_Father: {fileID: 1678756873}
+  m_LocalEulerAnglesHint: {x: 0, y: 3.4, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 10.53, y: 9.618}
+  m_AnchoredPosition: {x: 0.031666756, y: 0.00027370453}
   m_SizeDelta: {x: 70, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &249656304
@@ -1095,7 +1145,6 @@ GameObject:
   - component: {fileID: 250744451}
   - component: {fileID: 250744450}
   - component: {fileID: 250744453}
-  - component: {fileID: 250744454}
   m_Layer: 0
   m_Name: Uranus
   m_TagString: Untagged
@@ -1112,11 +1161,11 @@ Transform:
   m_GameObject: {fileID: 250744448}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 8.12548, y: 9.17021, z: 114.36265}
-  m_LocalScale: {x: 4, y: 4, z: 4}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.03669723, y: 0.03669723, z: 0.036697242}
   m_ConstrainProportionsScale: 1
   m_Children: []
-  m_Father: {fileID: 1833994988}
+  m_Father: {fileID: 1678756873}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
 --- !u!135 &250744450
 SphereCollider:
@@ -1209,21 +1258,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlanetRotate
   rotationSpeed: -20.89
---- !u!114 &250744454
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 250744448}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7230ed68dadc8cf45bae513735852814, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlanetOrbit
-  orbitAround: {fileID: 308483099}
-  orbitingSpeed: 0.18
-  isOrbiting: 0
 --- !u!1 &266920041
 GameObject:
   m_ObjectHideFlags: 0
@@ -1237,7 +1271,6 @@ GameObject:
   - component: {fileID: 266920044}
   - component: {fileID: 266920043}
   - component: {fileID: 266920046}
-  - component: {fileID: 266920047}
   m_Layer: 0
   m_Name: Earth
   m_TagString: Untagged
@@ -1254,12 +1287,12 @@ Transform:
   m_GameObject: {fileID: 266920041}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.12548, y: 9.17021, z: 44.995068}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.009174311, y: 0.009174311, z: 0.009174311}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1310619055}
-  m_Father: {fileID: 661278051}
+  m_Father: {fileID: 765041652}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!135 &266920043
 SphereCollider:
@@ -1352,21 +1385,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlanetRotate
   rotationSpeed: 15
---- !u!114 &266920047
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 266920041}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7230ed68dadc8cf45bae513735852814, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlanetOrbit
-  orbitAround: {fileID: 308483099}
-  orbitingSpeed: 15
-  isOrbiting: 0
 --- !u!1 &267403034
 GameObject:
   m_ObjectHideFlags: 0
@@ -1783,7 +1801,6 @@ GameObject:
   - component: {fileID: 300968668}
   - component: {fileID: 300968667}
   - component: {fileID: 300968670}
-  - component: {fileID: 300968671}
   m_Layer: 0
   m_Name: Mars
   m_TagString: Untagged
@@ -1800,13 +1817,13 @@ Transform:
   m_GameObject: {fileID: 300968665}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.12548, y: 9.17021, z: 55.89507}
-  m_LocalScale: {x: 0.53000003, y: 0.53000003, z: 0.53000003}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.0048623853, y: 0.0048623853, z: 0.0048623853}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1954350916}
   - {fileID: 1531873493}
-  m_Father: {fileID: 1317306764}
+  m_Father: {fileID: 938245771}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!135 &300968667
 SphereCollider:
@@ -1899,21 +1916,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlanetRotate
   rotationSpeed: 14.56
---- !u!114 &300968671
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 300968665}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7230ed68dadc8cf45bae513735852814, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlanetOrbit
-  orbitAround: {fileID: 308483099}
-  orbitingSpeed: 7.96
-  isOrbiting: 0
 --- !u!1 &306839500
 GameObject:
   m_ObjectHideFlags: 0
@@ -2186,14 +2188,14 @@ Transform:
   m_Children:
   - {fileID: 1101856143}
   - {fileID: 482788934}
-  - {fileID: 1881794703}
-  - {fileID: 2052613531}
-  - {fileID: 661278051}
-  - {fileID: 1317306764}
-  - {fileID: 1974671324}
-  - {fileID: 993891637}
-  - {fileID: 1833994988}
-  - {fileID: 491336865}
+  - {fileID: 596204677}
+  - {fileID: 401531072}
+  - {fileID: 765041652}
+  - {fileID: 938245771}
+  - {fileID: 1107207612}
+  - {fileID: 72864589}
+  - {fileID: 1678756873}
+  - {fileID: 1033469882}
   m_Father: {fileID: 1417135872}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &311782568
@@ -2369,7 +2371,6 @@ GameObject:
   - component: {fileID: 315539966}
   - component: {fileID: 315539965}
   - component: {fileID: 315539968}
-  - component: {fileID: 315539969}
   m_Layer: 0
   m_Name: Jupiter
   m_TagString: Untagged
@@ -2386,11 +2387,11 @@ Transform:
   m_GameObject: {fileID: 315539963}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.12548, y: 9.17021, z: 66.79507}
-  m_LocalScale: {x: 11, y: 11, z: 11}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.10091743, y: 0.10091743, z: 0.10091743}
   m_ConstrainProportionsScale: 1
   m_Children: []
-  m_Father: {fileID: 1974671324}
+  m_Father: {fileID: 1107207612}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!135 &315539965
 SphereCollider:
@@ -2483,21 +2484,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlanetRotate
   rotationSpeed: 36.23
---- !u!114 &315539969
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 315539963}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7230ed68dadc8cf45bae513735852814, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlanetOrbit
-  orbitAround: {fileID: 308483099}
-  orbitingSpeed: 1.26
-  isOrbiting: 0
 --- !u!1 &372621933
 GameObject:
   m_ObjectHideFlags: 0
@@ -2523,11 +2509,11 @@ Transform:
   m_GameObject: {fileID: 372621933}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.639, y: 9.123039, z: 54.951}
-  m_LocalScale: {x: 0.5300001, y: 0.5300001, z: 0.5300001}
+  m_LocalPosition: {x: 0.0044910084, y: 0, z: -0.004908979}
+  m_LocalScale: {x: 0.0048623853, y: 0.0048623853, z: 0.0048623853}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1317306764}
+  m_Father: {fileID: 938245771}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &389255504
 GameObject:
@@ -2923,6 +2909,56 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 401478423}
   m_CullTransparentMesh: 1
+--- !u!1 &401531071
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 401531072}
+  - component: {fileID: 401531073}
+  m_Layer: 0
+  m_Name: VenusAnchor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &401531072
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 401531071}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.8}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 698393094}
+  - {fileID: 476410631}
+  - {fileID: 2104951369}
+  m_Father: {fileID: 308483103}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &401531073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 401531071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7230ed68dadc8cf45bae513735852814, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlanetOrbit
+  orbitAround: {fileID: 308483099}
+  orbitingSpeed: 24.39
+  isOrbiting: 0
 --- !u!1 &437921592
 GameObject:
   m_ObjectHideFlags: 0
@@ -3274,18 +3310,18 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 476410630}
   m_LocalRotation: {x: -0, y: -0.3227613, z: -0, w: 0.94648045}
-  m_LocalPosition: {x: 0, y: 0, z: 0.6577663}
-  m_LocalScale: {x: 0.0100000035, y: 0.010000002, z: 0.014000005}
+  m_LocalPosition: {x: 0, y: 0, z: 0.009743631}
+  m_LocalScale: {x: 0.00009174314, y: 0.00009174313, z: 0.00012844041}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 869307888}
   - {fileID: 390727921}
   - {fileID: 1368387540}
-  m_Father: {fileID: 2052613531}
+  m_Father: {fileID: 401531072}
   m_LocalEulerAnglesHint: {x: 0, y: -37.66, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0897398, y: 0.15}
+  m_AnchoredPosition: {x: 0.003217798, y: 0}
   m_SizeDelta: {x: 70, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &476410632
@@ -3415,8 +3451,8 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 482788933}
-  m_LocalRotation: {x: -0, y: -0.3227613, z: -0, w: 0.94648045}
-  m_LocalPosition: {x: 0, y: 0, z: 0.2843}
+  m_LocalRotation: {x: 0, y: -0.31316373, z: 0, w: 0.94969916}
+  m_LocalPosition: {x: 0, y: 0, z: 0.27729}
   m_LocalScale: {x: 0.00009174311, y: 0.00009174311, z: 0.00012844037}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3424,10 +3460,10 @@ RectTransform:
   - {fileID: 306839501}
   - {fileID: 952181005}
   m_Father: {fileID: 308483103}
-  m_LocalEulerAnglesHint: {x: 0, y: -37.66, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -36.5, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.5195, y: 0}
+  m_AnchoredPosition: {x: 0.52484, y: 0.00246}
   m_SizeDelta: {x: 70, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &482788935
@@ -3692,56 +3728,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 483232310}
   m_CullTransparentMesh: 1
---- !u!1 &491336863
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 491336865}
-  - component: {fileID: 491336864}
-  m_Layer: 0
-  m_Name: OrbitAnchorNeptune
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &491336864
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 491336863}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7230ed68dadc8cf45bae513735852814, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlanetOrbit
-  orbitAround: {fileID: 308483099}
-  orbitingSpeed: 0.09
-  isOrbiting: 0
---- !u!4 &491336865
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 491336863}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.07454568, y: -0.08413036, z: 0.48720118}
-  m_LocalScale: {x: 0.0091743115, y: 0.0091743115, z: 0.0091743115}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1952382080}
-  - {fileID: 1024868057}
-  - {fileID: 1479988304}
-  m_Father: {fileID: 308483103}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &529015593
 GameObject:
   m_ObjectHideFlags: 0
@@ -3767,19 +3753,19 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 529015593}
-  m_LocalRotation: {x: 0, y: -0.16848946, z: 0, w: 0.98570347}
-  m_LocalPosition: {x: 0, y: 0, z: 63.462006}
-  m_LocalScale: {x: 0.009999999, y: 0.01, z: 0.014000002}
+  m_LocalRotation: {x: -0, y: 0.008726558, z: -0, w: 0.999962}
+  m_LocalPosition: {x: 0, y: 0, z: -0.029771328}
+  m_LocalScale: {x: 0.00009174308, y: 0.000091743095, z: 0.0001284404}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 742607794}
   - {fileID: 868703860}
   - {fileID: 640615415}
-  m_Father: {fileID: 1974671324}
-  m_LocalEulerAnglesHint: {x: 0, y: -19.4, z: 0}
+  m_Father: {fileID: 1107207612}
+  m_LocalEulerAnglesHint: {x: 0, y: 1, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 15.059001, y: 9.54}
+  m_AnchoredPosition: {x: 0.07050228, y: 0.00027370453}
   m_SizeDelta: {x: 70, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &529015595
@@ -4159,19 +4145,19 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 568764839}
-  m_LocalRotation: {x: 0, y: 0.14694625, z: 0, w: 0.98914456}
-  m_LocalPosition: {x: 0, y: 0, z: 84.89}
-  m_LocalScale: {x: 0.009999999, y: 0.01, z: 0.014000006}
+  m_LocalRotation: {x: -0, y: 0.21388295, z: -0, w: 0.97685933}
+  m_LocalPosition: {x: 0, y: 0, z: -0.14903748}
+  m_LocalScale: {x: 0.0000917431, y: 0.0000917431, z: 0.00012844041}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1190624454}
   - {fileID: 483232311}
   - {fileID: 311782569}
-  m_Father: {fileID: 993891637}
-  m_LocalEulerAnglesHint: {x: 0, y: 16.9, z: 0}
+  m_Father: {fileID: 72864589}
+  m_LocalEulerAnglesHint: {x: 0, y: 24.7, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 13.84, y: 10.628}
+  m_AnchoredPosition: {x: 0.08435249, y: 0.009539604}
   m_SizeDelta: {x: 70, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &568764841
@@ -4276,6 +4262,56 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 568764839}
   m_CullTransparentMesh: 1
+--- !u!1 &596204676
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 596204677}
+  - component: {fileID: 596204678}
+  m_Layer: 0
+  m_Name: MercuryAnchor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &596204677
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 596204676}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.7, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1300594644}
+  - {fileID: 1367641267}
+  - {fileID: 176236452}
+  m_Father: {fileID: 308483103}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &596204678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 596204676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7230ed68dadc8cf45bae513735852814, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlanetOrbit
+  orbitAround: {fileID: 308483099}
+  orbitingSpeed: 62.24
+  isOrbiting: 0
 --- !u!1 &640615414
 GameObject:
   m_ObjectHideFlags: 0
@@ -4846,56 +4882,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 659926897}
   m_CullTransparentMesh: 1
---- !u!1 &661278050
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 661278051}
-  - component: {fileID: 661278052}
-  m_Layer: 0
-  m_Name: OrbitAnchorEarth
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &661278051
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 661278050}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.07454568, y: -0.08413036, z: 0.48720118}
-  m_LocalScale: {x: 0.0091743115, y: 0.0091743115, z: 0.0091743115}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 266920042}
-  - {fileID: 1625134115}
-  - {fileID: 1713859111}
-  m_Father: {fileID: 308483103}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &661278052
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 661278050}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7230ed68dadc8cf45bae513735852814, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlanetOrbit
-  orbitAround: {fileID: 308483099}
-  orbitingSpeed: 15
-  isOrbiting: 0
 --- !u!1 &686741522
 GameObject:
   m_ObjectHideFlags: 0
@@ -5191,11 +5177,11 @@ Transform:
   m_GameObject: {fileID: 698393093}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.35074, y: 0, z: -0.36422956}
-  m_LocalScale: {x: 0.9500001, y: 0.9500001, z: 0.9500001}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.008715596, y: 0.008715596, z: 0.008715596}
   m_ConstrainProportionsScale: 1
   m_Children: []
-  m_Father: {fileID: 2052613531}
+  m_Father: {fileID: 401531072}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!135 &698393095
 SphereCollider:
@@ -5544,9 +5530,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e56a01b4a83a6c84daffa45deb7ce897, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TeleportToPoint
-  interactModeOverride: 2
+  interactModeOverride: 1
   twistMultiplierOverride: 0
-  dwellTimerOverride: 0
+  dwellTimerOverride: 1
   teleportPoint: {fileID: 641883386}
 --- !u!65 &712440043
 BoxCollider:
@@ -5690,6 +5676,56 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 742607793}
   m_CullTransparentMesh: 1
+--- !u!1 &765041651
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 765041652}
+  - component: {fileID: 765041653}
+  m_Layer: 0
+  m_Name: EarthAnchor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &765041652
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765041651}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.9}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 266920042}
+  - {fileID: 1625134115}
+  - {fileID: 1713859111}
+  m_Father: {fileID: 308483103}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &765041653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765041651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7230ed68dadc8cf45bae513735852814, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlanetOrbit
+  orbitAround: {fileID: 308483099}
+  orbitingSpeed: 15
+  isOrbiting: 0
 --- !u!1 &838290415
 GameObject:
   m_ObjectHideFlags: 0
@@ -5715,11 +5751,11 @@ Transform:
   m_GameObject: {fileID: 838290415}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 13.048, y: 10.145, z: 83.693}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.07854605, y: 0.009722858, z: -0.16001904}
+  m_LocalScale: {x: 0.009174311, y: 0.009174311, z: 0.009174311}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 993891637}
+  m_Father: {fileID: 72864589}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &848313605
 GameObject:
@@ -6559,14 +6595,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::OrbitingTrigger
   viewPoint: {fileID: 933962676}
   planets:
-  - {fileID: 1881794704}
-  - {fileID: 2052613532}
-  - {fileID: 661278052}
-  - {fileID: 1317306765}
-  - {fileID: 1974671325}
-  - {fileID: 993891638}
-  - {fileID: 1833994989}
-  - {fileID: 491336864}
+  - {fileID: 596204678}
+  - {fileID: 401531073}
+  - {fileID: 765041653}
+  - {fileID: 938245772}
+  - {fileID: 1107207613}
+  - {fileID: 72864590}
+  - {fileID: 1678756874}
+  - {fileID: 1033469883}
 --- !u!65 &933962680
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6588,6 +6624,56 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2, y: 2, z: 2}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &938245770
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 938245771}
+  - component: {fileID: 938245772}
+  m_Layer: 0
+  m_Name: MarsAnchor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &938245771
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938245770}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 300968666}
+  - {fileID: 2110641141}
+  - {fileID: 372621934}
+  m_Father: {fileID: 308483103}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &938245772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938245770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7230ed68dadc8cf45bae513735852814, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlanetOrbit
+  orbitAround: {fileID: 308483099}
+  orbitingSpeed: 7.96
+  isOrbiting: 0
 --- !u!1 &952181004
 GameObject:
   m_ObjectHideFlags: 0
@@ -6937,56 +7023,6 @@ MonoBehaviour:
     m_Interactions: 
     m_SingletonActionBindings: []
     m_Flags: 0
---- !u!1 &993891636
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 993891637}
-  - component: {fileID: 993891638}
-  m_Layer: 0
-  m_Name: OrbitAnchorSaturn
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &993891637
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 993891636}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.07454568, y: -0.08413036, z: 0.48720118}
-  m_LocalScale: {x: 0.0091743115, y: 0.0091743115, z: 0.0091743115}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1932477683}
-  - {fileID: 568764840}
-  - {fileID: 838290416}
-  m_Father: {fileID: 308483103}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &993891638
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 993891636}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7230ed68dadc8cf45bae513735852814, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlanetOrbit
-  orbitAround: {fileID: 308483099}
-  orbitingSpeed: 0.51
-  isOrbiting: 0
 --- !u!1 &1008290400
 GameObject:
   m_ObjectHideFlags: 0
@@ -7172,19 +7208,19 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1024868056}
-  m_LocalRotation: {x: 0, y: 0.20876522, z: 0, w: 0.97796583}
-  m_LocalPosition: {x: 0, y: 0, z: 123.3}
-  m_LocalScale: {x: 0.009999999, y: 0.010000002, z: 0.014000001}
+  m_LocalRotation: {x: -0, y: 0.08628637, z: -0, w: 0.9962704}
+  m_LocalPosition: {x: 0, y: 0, z: -0.0052876472}
+  m_LocalScale: {x: 0.000091743095, y: 0.00009174313, z: 0.00012844037}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1290958297}
   - {fileID: 1729443464}
   - {fileID: 912529949}
-  m_Father: {fileID: 491336865}
-  m_LocalEulerAnglesHint: {x: 0, y: 24.1, z: 0}
+  m_Father: {fileID: 1033469882}
+  m_LocalEulerAnglesHint: {x: 0, y: 9.9, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 10.54, y: 9.170209}
+  m_AnchoredPosition: {x: 0.029024124, y: 0.0015764236}
   m_SizeDelta: {x: 70, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1024868058
@@ -7426,6 +7462,56 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1030097628}
   m_CullTransparentMesh: 1
+--- !u!1 &1033469881
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1033469882}
+  - component: {fileID: 1033469883}
+  m_Layer: 0
+  m_Name: NeptuneAnchor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1033469882
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1033469881}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.65, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1952382080}
+  - {fileID: 1024868057}
+  - {fileID: 1479988304}
+  m_Father: {fileID: 308483103}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1033469883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1033469881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7230ed68dadc8cf45bae513735852814, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlanetOrbit
+  orbitAround: {fileID: 308483099}
+  orbitingSpeed: 0.09
+  isOrbiting: 0
 --- !u!1 &1035584623
 GameObject:
   m_ObjectHideFlags: 0
@@ -7455,7 +7541,7 @@ Light:
   m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 5
-  m_Range: 150
+  m_Range: 190
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
@@ -7974,12 +8060,62 @@ Transform:
   m_GameObject: {fileID: 1101856142}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.53134, y: -0.00122, z: 0.26971}
+  m_LocalPosition: {x: 0.53134, y: 0.00113, z: 0.26971}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 308483103}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1107207611
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1107207612}
+  - component: {fileID: 1107207613}
+  m_Layer: 0
+  m_Name: JupiterAnchor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1107207612
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1107207611}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 1.1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 315539964}
+  - {fileID: 529015594}
+  - {fileID: 1368001432}
+  m_Father: {fileID: 308483103}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1107207613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1107207611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7230ed68dadc8cf45bae513735852814, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlanetOrbit
+  orbitAround: {fileID: 308483099}
+  orbitingSpeed: 1.26
+  isOrbiting: 0
 --- !u!1 &1147261692
 GameObject:
   m_ObjectHideFlags: 0
@@ -8877,7 +9013,6 @@ GameObject:
   - component: {fileID: 1300594646}
   - component: {fileID: 1300594645}
   - component: {fileID: 1300594648}
-  - component: {fileID: 1300594649}
   m_Layer: 0
   m_Name: Mercury
   m_TagString: Untagged
@@ -8894,11 +9029,11 @@ Transform:
   m_GameObject: {fileID: 1300594643}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.12548, y: 9.17021, z: 23.195063}
-  m_LocalScale: {x: 0.38000005, y: 0.38000005, z: 0.38000005}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.0034862387, y: 0.0034862387, z: 0.0034862387}
   m_ConstrainProportionsScale: 1
   m_Children: []
-  m_Father: {fileID: 1881794703}
+  m_Father: {fileID: 596204677}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!135 &1300594645
 SphereCollider:
@@ -8991,21 +9126,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlanetRotate
   rotationSpeed: 0.0064
---- !u!114 &1300594649
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1300594643}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7230ed68dadc8cf45bae513735852814, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlanetOrbit
-  orbitAround: {fileID: 308483099}
-  orbitingSpeed: 62.24
-  isOrbiting: 0
 --- !u!1 &1310619054
 GameObject:
   m_ObjectHideFlags: 0
@@ -9118,56 +9238,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1310619054}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1317306763
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1317306764}
-  - component: {fileID: 1317306765}
-  m_Layer: 0
-  m_Name: OrbitAnchorMars
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1317306764
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1317306763}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.07454568, y: -0.08413036, z: 0.48720118}
-  m_LocalScale: {x: 0.0091743115, y: 0.0091743115, z: 0.0091743115}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 300968666}
-  - {fileID: 2110641141}
-  - {fileID: 372621934}
-  m_Father: {fileID: 308483103}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1317306765
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1317306763}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7230ed68dadc8cf45bae513735852814, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlanetOrbit
-  orbitAround: {fileID: 308483099}
-  orbitingSpeed: 7.96
-  isOrbiting: 0
 --- !u!1 &1354873669
 GameObject:
   m_ObjectHideFlags: 0
@@ -9353,19 +9423,19 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1367641266}
-  m_LocalRotation: {x: 0, y: -0.16848946, z: 0, w: 0.98570347}
-  m_LocalPosition: {x: 0, y: 0, z: 23.708}
-  m_LocalScale: {x: 0.010000002, y: 0.01, z: 0.014000004}
+  m_LocalRotation: {x: -0, y: -0.19979553, z: -0, w: 0.97983766}
+  m_LocalPosition: {x: 0, y: 0, z: 0.0048960447}
+  m_LocalScale: {x: 0.000091743124, y: 0.0000917431, z: 0.00012844038}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1934490496}
   - {fileID: 1354873670}
   - {fileID: 1594806754}
-  m_Father: {fileID: 1881794703}
-  m_LocalEulerAnglesHint: {x: 0, y: -19.4, z: 0}
+  m_Father: {fileID: 596204677}
+  m_LocalEulerAnglesHint: {x: 0, y: -23.05, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 8.542, y: 9.423}
+  m_AnchoredPosition: {x: 0.0027666092, y: 0.00027370453}
   m_SizeDelta: {x: 70, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1367641268
@@ -9495,11 +9565,11 @@ Transform:
   m_GameObject: {fileID: 1368001431}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 15.11, y: 9.17021, z: 61.93}
-  m_LocalScale: {x: 11, y: 11, z: 11}
+  m_LocalPosition: {x: 0.06907818, y: 0, z: -0.041413546}
+  m_LocalScale: {x: 0.10091743, y: 0.10091743, z: 0.10091743}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1974671324}
+  m_Father: {fileID: 1107207612}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1368387539
 GameObject:
@@ -10141,11 +10211,11 @@ Transform:
   m_GameObject: {fileID: 1479988303}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.89, y: 8.890189, z: 122.44}
-  m_LocalScale: {x: 3.9000008, y: 3.9000008, z: 3.9000008}
+  m_LocalPosition: {x: 0.02871119, y: 0.0020898134, z: -0.017040014}
+  m_LocalScale: {x: 0.03577982, y: 0.03577982, z: 0.03577982}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 491336865}
+  m_Father: {fileID: 1033469882}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1492939981
 GameObject:
@@ -11193,19 +11263,19 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1625134114}
-  m_LocalRotation: {x: 0, y: -0.18137747, z: 0, w: 0.9834136}
-  m_LocalPosition: {x: 0, y: 0, z: 45.404}
-  m_LocalScale: {x: 0.010000003, y: 0.01, z: 0.014000005}
+  m_LocalRotation: {x: -0, y: -0.028793924, z: -0, w: 0.9995854}
+  m_LocalPosition: {x: 0, y: 0, z: 0.0035119057}
+  m_LocalScale: {x: 0.00009174313, y: 0.0000917431, z: 0.0001284404}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 246333860}
   - {fileID: 1044025748}
   - {fileID: 1884331521}
-  m_Father: {fileID: 661278051}
-  m_LocalEulerAnglesHint: {x: 0, y: -20.9, z: 0}
+  m_Father: {fileID: 765041652}
+  m_LocalEulerAnglesHint: {x: 0, y: -3.3, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 8.954, y: 9.320207}
+  m_AnchoredPosition: {x: 0.0081243515, y: 0.00027370453}
   m_SizeDelta: {x: 70, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1625134116
@@ -11228,9 +11298,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\nTYYPPI: kiviplaneetta\nKOKO: 0.95 * Maa\nPINTA L\xC4MP\xD6TILA: 464\nP\xC4IV\xC4N
-    KESTO: 243 p\nKUUT: 0\n______________________\nVenus on aurinkokunnan \nkuumin
-    planeetta.\n\n"
+  m_text: "\nTYYPPI: kiviplaneetta\nKOKO: 1 * Maa\nPINTA L\xC4MP\xD6TILA: 15\nP\xC4IV\xC4N
+    KESTO: 24 h\nKUUT: 1\n______________________\nT\xE4\xE4ll\xE4 on paljon \nmuuraihaisia.\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -11445,9 +11514,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e56a01b4a83a6c84daffa45deb7ce897, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TeleportToPoint
-  interactModeOverride: 2
+  interactModeOverride: 1
   twistMultiplierOverride: 0
-  dwellTimerOverride: 0
+  dwellTimerOverride: 1
   teleportPoint: {fileID: 933962676}
 --- !u!65 &1639186337
 BoxCollider:
@@ -12020,6 +12089,56 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1662103949}
   m_CullTransparentMesh: 1
+--- !u!1 &1678756872
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1678756873}
+  - component: {fileID: 1678756874}
+  m_Layer: 0
+  m_Name: UranusAnchor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1678756873
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1678756872}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -1.6}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 250744449}
+  - {fileID: 249656303}
+  - {fileID: 1937344244}
+  m_Father: {fileID: 308483103}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1678756874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1678756872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7230ed68dadc8cf45bae513735852814, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlanetOrbit
+  orbitAround: {fileID: 308483099}
+  orbitingSpeed: 0.18
+  isOrbiting: 0
 --- !u!1 &1713859110
 GameObject:
   m_ObjectHideFlags: 0
@@ -12045,11 +12164,11 @@ Transform:
   m_GameObject: {fileID: 1713859110}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.233, y: 9.103, z: 44.207}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.008344218, y: -0.0001578927, z: -0.0049009323}
+  m_LocalScale: {x: 0.009174311, y: 0.009174311, z: 0.009174311}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 661278051}
+  m_Father: {fileID: 765041652}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1714861561
 PrefabInstance:
@@ -12753,56 +12872,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1767984687}
   m_CullTransparentMesh: 1
---- !u!1 &1833994987
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1833994988}
-  - component: {fileID: 1833994989}
-  m_Layer: 0
-  m_Name: OrbitAnchorUranus
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1833994988
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1833994987}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.07454568, y: -0.08413036, z: 0.48720118}
-  m_LocalScale: {x: 0.0091743115, y: 0.0091743115, z: 0.0091743115}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 250744449}
-  - {fileID: 249656303}
-  - {fileID: 1937344244}
-  m_Father: {fileID: 308483103}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1833994989
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1833994987}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7230ed68dadc8cf45bae513735852814, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlanetOrbit
-  orbitAround: {fileID: 308483099}
-  orbitingSpeed: 0.18
-  isOrbiting: 0
 --- !u!1001 &1863297011
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12885,56 +12954,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 482300, guid: 15fcd94adb15b48f7bb4a80622ae7046, type: 3}
   m_PrefabInstance: {fileID: 1863297011}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1881794702
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1881794703}
-  - component: {fileID: 1881794704}
-  m_Layer: 0
-  m_Name: OrbitAnchorMercurry
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1881794703
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1881794702}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.07454568, y: -0.08413036, z: 0.48720118}
-  m_LocalScale: {x: 0.0091743115, y: 0.0091743115, z: 0.0091743115}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1300594644}
-  - {fileID: 1367641267}
-  - {fileID: 176236452}
-  m_Father: {fileID: 308483103}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1881794704
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1881794702}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7230ed68dadc8cf45bae513735852814, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlanetOrbit
-  orbitAround: {fileID: 308483099}
-  orbitingSpeed: 62.24
-  isOrbiting: 0
 --- !u!1 &1884331520
 GameObject:
   m_ObjectHideFlags: 0
@@ -13238,31 +13257,31 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 993891637}
+    m_TransformParent: {fileID: 72864589}
     m_Modifications:
     - target: {fileID: -3910990755373119420, guid: e9944293fdec2ba46aa1320e766083fd, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.01
+      value: 0.0000917431
       objectReference: {fileID: 0}
     - target: {fileID: -3910990755373119420, guid: e9944293fdec2ba46aa1320e766083fd, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.01
+      value: 0.0000917431
       objectReference: {fileID: 0}
     - target: {fileID: -3910990755373119420, guid: e9944293fdec2ba46aa1320e766083fd, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.01
+      value: 0.0000917431
       objectReference: {fileID: 0}
     - target: {fileID: -3910990755373119420, guid: e9944293fdec2ba46aa1320e766083fd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.874779
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -3910990755373119420, guid: e9944293fdec2ba46aa1320e766083fd, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 9.17021
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -3910990755373119420, guid: e9944293fdec2ba46aa1320e766083fd, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 91.581665
+      value: -0.07260001
       objectReference: {fileID: 0}
     - target: {fileID: -3910990755373119420, guid: e9944293fdec2ba46aa1320e766083fd, type: 3}
       propertyPath: m_LocalRotation.w
@@ -13307,9 +13326,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8771091787928289351, guid: e9944293fdec2ba46aa1320e766083fd, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1932477688}
-    - targetCorrespondingSourceObject: {fileID: 8771091787928289351, guid: e9944293fdec2ba46aa1320e766083fd, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1932477687}
     - targetCorrespondingSourceObject: {fileID: -450606828048210526, guid: e9944293fdec2ba46aa1320e766083fd, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1932477686}
@@ -13350,21 +13366,6 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 500
   m_Center: {x: 0.0000019073486, y: 0, z: 0}
---- !u!114 &1932477687
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1932477685}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7230ed68dadc8cf45bae513735852814, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlanetOrbit
-  orbitAround: {fileID: 308483099}
-  orbitingSpeed: 0.51
-  isOrbiting: 0
 --- !u!114 &1932477688
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13524,11 +13525,11 @@ Transform:
   m_GameObject: {fileID: 1937344243}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 9.747, y: 9.01, z: 111.465}
-  m_LocalScale: {x: 4, y: 4, z: 4}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: 0.031261645, y: 0.0007870644, z: -0.016357064}
+  m_LocalScale: {x: 0.00917431, y: 0.00917431, z: 0.009174311}
+  m_ConstrainProportionsScale: 1
   m_Children: []
-  m_Father: {fileID: 1833994988}
+  m_Father: {fileID: 1678756873}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1952382079
 GameObject:
@@ -13543,7 +13544,6 @@ GameObject:
   - component: {fileID: 1952382082}
   - component: {fileID: 1952382081}
   - component: {fileID: 1952382084}
-  - component: {fileID: 1952382085}
   m_Layer: 0
   m_Name: Neptune
   m_TagString: Untagged
@@ -13560,11 +13560,11 @@ Transform:
   m_GameObject: {fileID: 1952382079}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.12548, y: 9.17021, z: 125.26264}
-  m_LocalScale: {x: 3.9000003, y: 3.9000003, z: 3.9000003}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.03577982, y: 0.03577982, z: 0.03577982}
   m_ConstrainProportionsScale: 1
   m_Children: []
-  m_Father: {fileID: 491336865}
+  m_Father: {fileID: 1033469882}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!135 &1952382081
 SphereCollider:
@@ -13657,21 +13657,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlanetRotate
   rotationSpeed: 22.35
---- !u!114 &1952382085
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1952382079}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7230ed68dadc8cf45bae513735852814, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlanetOrbit
-  orbitAround: {fileID: 308483099}
-  orbitingSpeed: 0.09
-  isOrbiting: 0
 --- !u!1001 &1954350915
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13750,56 +13735,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1029112836879633985, guid: de28d7d4c3ac9e147b482ba3e6fbb93a, type: 3}
   m_PrefabInstance: {fileID: 1954350915}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1974671323
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1974671324}
-  - component: {fileID: 1974671325}
-  m_Layer: 0
-  m_Name: OrbitAnchorJupiter
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1974671324
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1974671323}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.07454568, y: -0.08413036, z: 0.48720118}
-  m_LocalScale: {x: 0.0091743115, y: 0.0091743115, z: 0.0091743115}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 315539964}
-  - {fileID: 529015594}
-  - {fileID: 1368001432}
-  m_Father: {fileID: 308483103}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1974671325
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1974671323}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7230ed68dadc8cf45bae513735852814, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlanetOrbit
-  orbitAround: {fileID: 308483099}
-  orbitingSpeed: 1.26
-  isOrbiting: 0
 --- !u!1 &1979972319
 GameObject:
   m_ObjectHideFlags: 0
@@ -14239,56 +14174,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2013608764}
   m_CullTransparentMesh: 1
---- !u!1 &2052613530
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2052613531}
-  - component: {fileID: 2052613532}
-  m_Layer: 0
-  m_Name: OrbitAnchorVenus
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2052613531
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2052613530}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.003217798, y: 0, z: 0.80334157}
-  m_LocalScale: {x: 0.0091743115, y: 0.0091743115, z: 0.0091743115}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 698393094}
-  - {fileID: 476410631}
-  - {fileID: 2104951369}
-  m_Father: {fileID: 308483103}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2052613532
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2052613530}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7230ed68dadc8cf45bae513735852814, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlanetOrbit
-  orbitAround: {fileID: 308483099}
-  orbitingSpeed: 24.39
-  isOrbiting: 0
 --- !u!1 &2063265890
 GameObject:
   m_ObjectHideFlags: 0
@@ -14588,11 +14473,11 @@ Transform:
   m_GameObject: {fileID: 2104951368}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.80446005, y: 0, z: -0.7377952}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.010557246, y: 0, z: -0.0031005144}
+  m_LocalScale: {x: 0.009174311, y: 0.009174311, z: 0.009174311}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2052613531}
+  m_Father: {fileID: 401531072}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2110641140
 GameObject:
@@ -14619,19 +14504,19 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2110641140}
-  m_LocalRotation: {x: 0, y: 0.1409013, z: 0, w: 0.9900237}
-  m_LocalPosition: {x: 0, y: 0, z: 56.141}
-  m_LocalScale: {x: 0.010000002, y: 0.010000002, z: 0.014000004}
+  m_LocalRotation: {x: -0, y: 0.0017452955, z: -0, w: 0.9999985}
+  m_LocalPosition: {x: 0, y: 0, z: 0.0055497885}
+  m_LocalScale: {x: 0.00009174313, y: 0.00009174313, z: 0.00012844041}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 712082085}
   - {fileID: 1523066669}
   - {fileID: 1008290401}
-  m_Father: {fileID: 1317306764}
-  m_LocalEulerAnglesHint: {x: 0, y: 16.2, z: 0}
+  m_Father: {fileID: 938245771}
+  m_LocalEulerAnglesHint: {x: 0, y: 0.2, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 8.833, y: 9.342}
+  m_AnchoredPosition: {x: 0.005170822, y: 0.00027370453}
   m_SizeDelta: {x: 70, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2110641142
@@ -14655,8 +14540,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "\nTYYPPI: kiviplaneetta\nKOKO: 0.95 * Maa\nPINTA L\xC4MP\xD6TILA: 464\nP\xC4IV\xC4N
-    KESTO: 243 p\nKUUT: 0\n______________________\nVenus on aurinkokunnan \nkuumin
-    planeetta.\n\n"
+    KESTO: 243 p\nKUUT: 2 (Phobo, Deimos)\n______________________\nVenus on aurinkokunnan
+    \nkuumin planeetta.\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -14930,7 +14815,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Saturn
+  m_text: Saturnus
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
